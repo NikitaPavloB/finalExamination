@@ -1,0 +1,21 @@
+2024-04-18 14:54:59 INFO ====== WebDriver manager ======
+2024-04-18 14:55:00 INFO Get LATEST chromedriver version for google-chrome
+2024-04-18 14:55:01 INFO Get LATEST chromedriver version for google-chrome
+2024-04-18 14:55:01 INFO Driver [C:\Users\KIND\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe] found in cache
+2024-04-18 14:55:03 INFO Send Penguin_1 in //*[@id="login"]/div[1]/label/input
+2024-04-18 14:55:03 INFO Send 746a1d6764 in //*[@id="login"]/div[2]/label/input
+2024-04-18 14:55:03 INFO Click login button
+2024-04-18 14:55:04 INFO We found check Home checkbox during login //*[@id="app"]/main/nav/a
+2024-04-18 14:55:04 INFO Send Penguin_1 in //*[@id="login"]/div[1]/label/input
+2024-04-18 14:55:04 INFO Send 746a1d6764 in //*[@id="login"]/div[2]/label/input
+2024-04-18 14:55:05 INFO Click login button
+2024-04-18 14:55:06 INFO We found check Home checkbox during login //*[@id="app"]/main/nav/a
+2024-04-18 14:55:06 INFO Click about button
+2024-04-18 14:55:09 INFO We found check About Page checkbox during login //*[@id="app"]/main/div/div/h1
+2024-04-18 14:55:09 INFO Send Penguin_1 in //*[@id="login"]/div[1]/label/input
+2024-04-18 14:55:09 INFO Send 746a1d6764 in //*[@id="login"]/div[2]/label/input
+2024-04-18 14:55:09 INFO Click login button
+2024-04-18 14:55:10 INFO We found check Home checkbox during login //*[@id="app"]/main/nav/a
+2024-04-18 14:55:10 INFO Click about button
+2024-04-18 14:55:13 INFO We found check About Page checkbox during login //*[@id="app"]/main/div/div/h1
+2024-04-18 14:55:13 INFO Font size of header is '32px'
