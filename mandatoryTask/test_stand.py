@@ -16,7 +16,7 @@ def test_1(browser):
     test_page.click_login_button()
     assert test_page.get_check_text() == f'Home'
 
-# Если хотите запустить тестт по отдельности, то уберите фикстуру setup
+# Если хотите запустить тест по отдельности, то уберите фикстуру setup
 def test_2(setup, browser):
     test_page = OperationsHelper(browser, data['address'])
     test_page.go_to_site()
@@ -26,10 +26,10 @@ def test_2(setup, browser):
     assert test_page.get_check_text() == 'Home'
 
     test_page.click_about_button()
-    time.sleep(3)
+    time.sleep(2)
     assert test_page.get_check_about() == f'About Page'
 
-# Если хотите запустить тестт по отдельности, то уберите фикстуру setup
+# Если хотите запустить тест по отдельности, то уберите фикстуру setup
 def test_3(setup, browser):
     test_page = OperationsHelper(browser, data['address'])
     test_page.go_to_site()
@@ -39,7 +39,7 @@ def test_3(setup, browser):
     assert test_page.get_check_text() == 'Home'
 
     test_page.click_about_button()
-    time.sleep(3)
+    time.sleep(2)
     assert test_page.get_check_about() == f'About Page'
 
     actual_font_size = test_page.get_header_font_size()  # Метод для получения размера шрифта заголовка
