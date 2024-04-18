@@ -2,8 +2,6 @@ import time
 import pytest
 import yaml
 from testpage import OperationsHelper
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 
 with open('datatest.yaml', 'r', encoding='utf-8') as f:
