@@ -1,0 +1,9 @@
+#Локаторы для авторизации
+LOGIN_FIELD: '//*[@id="login"]/div[1]/label/input'
+PASS_FIELD: '//*[@id="login"]/div[2]/label/input'
+LOGIN_BIN: 'button'
+CHECK_TEXT: '//*[@id="app"]/main/nav/a'
+
+#Локаторы для перехода в раздел about
+CHECK_ABOUT: '//*[@id="app"]/main/nav/ul/li[1]/a'
+CHECK_TEXT_ABOUT: '//*[@id="app"]/main/div/div/h1'
