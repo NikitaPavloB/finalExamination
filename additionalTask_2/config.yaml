@@ -1,0 +1,5 @@
+login_url: "https://test-stand.gb.ru/gateway/login"
+username: "Penguin_1"
+password: "746a1d6764"
+
+base_url: "https://test-stand.gb.ru/api/users/profile/"
