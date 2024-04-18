@@ -16,7 +16,7 @@ def test_1(browser):
     test_page.click_login_button()
     assert test_page.get_check_text() == f'Home'
 
-
+# Если хотите запустить тестт по отдельности, то уберите фикстуру setup
 def test_2(setup, browser):
     test_page = OperationsHelper(browser, data['address'])
     test_page.go_to_site()
@@ -29,7 +29,7 @@ def test_2(setup, browser):
     time.sleep(3)
     assert test_page.get_check_about() == f'About Page'
 
-
+# Если хотите запустить тестт по отдельности, то уберите фикстуру setup
 def test_3(setup, browser):
     test_page = OperationsHelper(browser, data['address'])
     test_page.go_to_site()
